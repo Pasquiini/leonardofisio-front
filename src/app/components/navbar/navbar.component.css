@@ -1,0 +1,19 @@
+.navbar-logo {
+    max-height: 140px;
+    /* Ajuste para aumentar o tamanho da logo */
+    width: auto;
+    /* Mantém a proporção da imagem */
+    margin-right: 20px;
+    /* Espaçamento entre a logo e o menu */
+}
+
+@media (max-width: 768px) {
+    .navbar-logo {
+        max-height: 60px;
+        /* Ajuste o tamanho da logo em telas menores */
+    }
+}
+
+nav {
+    height: 90px;
+}
